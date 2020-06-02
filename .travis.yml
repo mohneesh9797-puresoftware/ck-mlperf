@@ -6,10 +6,6 @@ dist:       xenial
 sudo:       false
 language:   python
 
-python:
-    - 3.5
-    - 3.6
-
 matrix:
     include:
         - name: "Python 3.6.7 on Bionic/amd64"
